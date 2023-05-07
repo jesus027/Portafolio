@@ -12,8 +12,8 @@ const Resume = () => {
         <section id='resume' className='w-full py-20 border-b-[1px] border-black'>
             <div className='flex justify-center items-center text-center'>
                 <Title
-                    title="4+ YEARS OF EXPERIENCE"
-                    des="My Resume"
+                    title="4+ Años de Experiencia"
+                    des="Mi Resumem"
                 />
             </div>
 
@@ -29,7 +29,7 @@ const Resume = () => {
                             educationData ? "border-designColor rounded-lg" : "border-transparent"
                         } resumeLi`}
                     >
-                        Education
+                        Educación
                     </li>
                     
                     <li
@@ -42,7 +42,7 @@ const Resume = () => {
                             skillData ? "border-designColor rounded-lg" : "border-transparent"
                         } resumeLi`}
                     >
-                        Professional Skills
+                        Habilidades Profesionales
                     </li>
                 </ul>
             </div>
