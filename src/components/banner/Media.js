@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { SiReact, SiLaravel, SiHtml5, SiAngularjs } from 'react-icons/si';
 
 const Media = () => {
@@ -11,13 +11,23 @@ const Media = () => {
                     </h2>
 
                     <div className='flex gap-4'>
-                        <span className='bannerIcon'>
-                            <FaLinkedinIn />
-                        </span>
+                        <a href='https://www.linkedin.com/in/jes%C3%BAs-pi%C3%B1ero-b521a521b/' rel="noopener noreferrer" target='_blank'>
+                            <span className='bannerIcon'>
+                                <FaLinkedinIn />
+                            </span>
+                        </a>
+                        
+                        <a href='https://www.instagram.com/jesusgt77/' rel="noopener noreferrer" target='_blank'>    
+                            <span className='bannerIcon'>
+                                <FaInstagram />
+                            </span>
+                        </a>
 
-                        <span className='bannerIcon'>
-                            <FaInstagram />
-                        </span>
+                        <a href='https://api.whatsapp.com/send?phone=584125943159' rel="noopener noreferrer" target='_blank'>    
+                            <span className='bannerIcon'>
+                                <FaWhatsapp />
+                            </span>
+                        </a>
                     </div>
                 </div>
 
