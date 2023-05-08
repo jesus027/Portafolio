@@ -29,12 +29,12 @@ const LeftBanner = () => {
                         />
                     </h2>
                     <p className='text-base font-bodyFont leading-6 tracking-wide'>
-                        Programador web con 4 años de experiencia en el desarrollo de aplicaciones web con 
-                        React.Js, Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS y BootsTrap. Realice
-                        una pasantia como programador Front-End en Devdatep Consulting en conjunto conel equipo del
-                        Front-End. Me enfoco siempre en buscar las soluciones más eficientes en un entorno robusto y
-                        a su vez escalable. Es un requisito indispensable tener un balance equilibrado entre mi
-                        profesión y mi familia.
+                        Programador web con 4 años de experiencia en el desarrollo de aplicaciones web con React.Js,
+                        Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS y BootsTrap. Realice una pasantia
+                        como programador Front-End en Devdatep Consulting en conjunto con el equipo del Front-End. Me
+                        enfoco siempre en buscar las soluciones más eficientes en un entorno robusto y a su vez
+                        escalable. Es un requisito indispensable tener un balance equilibrado entre mi profesión y mi
+                        familia.
                     </p>
                 </div>
 
