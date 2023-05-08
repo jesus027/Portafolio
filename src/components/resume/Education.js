@@ -69,8 +69,8 @@ const Education = () => {
                         title="Curso de React.js y Tailwind CSS (2022-2022)"
                         subTitle="Curso Realizado en Udemy"
                         result="Udemy"
-                        des="la educación superior es la educación terciaria que conduce a la obtención de un
-                        título académico. Educación superior, también llamada educación postsecundaria."
+                        des="Curso realizado durante mi pasantia en Devdatep Consulting,
+                        mediante la plataforma web de aprendizaje de Udemy."
                     />
 
                     <ResumeCard
