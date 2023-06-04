@@ -32,7 +32,7 @@ const Footer = () => {
 
             <div className='w-full h-full'>
                 <h3 className='text-xl uppercase text-designColor tracking-wide'>
-                    Enlace Rápido
+                    Quick Link
                 </h3>
 
                 <ul className='flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden'>
@@ -90,7 +90,7 @@ const Footer = () => {
 
             <div className='w-full h-full'>
                 <h3 className='text-xl uppercase text-designColor tracking-wide'>
-                    Recursos
+                    Resources
                 </h3>
 
                 <ul className='flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden'>
@@ -158,14 +158,14 @@ const Footer = () => {
 
             <div className='w-full h-full'>
                 <h3 className='text-xl uppercase text-designColor tracking-wide'>
-                    derechos de autor
+                    Copyright
                 </h3>
 
                 <ul className='flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden'>
                     <li>
                         <span className='w-full text-lg hover:text-designColor duration-300 cursor-pointer
                         relative group'>
-                            © 2023 Jesús Piñero | Portafolio Web
+                            © 2023 Jesús Piñero | Website Portfolio
                             <span className='absolute h-[1px] w-full inline-flex
                         bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0
                         transition-transform duration-300'></span>

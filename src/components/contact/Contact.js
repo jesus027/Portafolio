@@ -36,31 +36,31 @@ const Contact = () => {
     const handleSend = (e) => {
         e.preventDefault()
         if(user === "") {
-            setError("¡Se Requiere Nombre de Usuario!");
+            setError("Username Required!");
         }
         
         else if(phone === "") {
-            setError("¡se requiere el número de teléfono!");
+            setError("Phone Number Required!");
         }
         
         else if(email === "") {
-            setError("¡se requiere el Correo Electronico!");
+            setError("Email is required!");
         }
         
         else if(!emailValidation(email)) {
-            setError("¡Escribe un Correo Electronico Valido!");
+            setError("Write a Valid Email!");
         }
         
         else if(asunto === "") {
-            setError("¡Por Favor Escribe el Asunto!");
+            setError("Please Write the Subject!");
         }
     
         else if(message === "") {
-            setError("¡Se Requiere el Mensaje!");
+            setError("Message Required!");
         }
             
         else {
-            setSuccess(`gracias ${user}, su mensaje ha sido enviado correctamente`);
+            setSuccess(`Thank you ${user}, your message has been sent successfully`);
             setError("");
             setUser("");
             setPhone("");
@@ -73,7 +73,7 @@ const Contact = () => {
     return (
         <section id='contact' className='w-full py-20 border-b-[1px] border-black'>
             <div className='flex justify-center items-center text-center'>
-                <Title title="Contact" des="Enviame un Mensaje" />
+                <Title title="Contact" des="Send me a Message" />
             </div>
 
             <div className='w-full'>
@@ -107,7 +107,7 @@ const Contact = () => {
                             <div className='w-full flex flex-col lgl:flex-row gap-10'>
                                 <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                                     <p className='text-sm text-gray-400 uppercase tracking-wide'>
-                                        Su Nombre
+                                        Name
                                     </p>
 
                                     <input 
@@ -115,21 +115,21 @@ const Contact = () => {
                                         name='name'
                                         value={user}
                                         className={`${
-                                            error === "¡Se Requiere Nombre de Usuario!" && "outline-red-500"
+                                            error === "Username Required!" && "outline-red-500"
                                         } contactInput`}
                                         type='text' 
                                     />
                                 </div>
 
                                 <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
-                                    <p className='text-sm text-gray-400 uppercase tracking-wide'>Número de teléfono</p>
+                                    <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone number</p>
 
                                     <input
                                         onChange={(e) => setPhone(e.target.value)}
                                         name='phone'
                                         value={phone}
                                         className={`${
-                                            error === "¡se requiere el número de teléfono!" && "outline-red-500"
+                                            error === "Phone Number Required!" && "outline-red-500"
                                         } contactInput`}
                                         type='text' 
                                     />
@@ -137,42 +137,42 @@ const Contact = () => {
                             </div>
 
                             <div className='flex flex-col gap-4'>
-                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Correo electrónico</p>
+                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Email</p>
 
                                 <input
                                     onChange={(e) => setEmail(e.target.value)}
                                     name='email'
                                     value={email}
                                     className={`${
-                                        error === "¡se requiere el Correo Electronico!" && "outline-red-500"
+                                        error === "Email is required!" && "outline-red-500"
                                     } contactInput`}
                                     type='email' 
                                 />
                             </div>
 
                             <div className='flex flex-col gap-4'>
-                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Asunto</p>
+                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Subject</p>
 
                                 <input
                                     onChange={(e) => setAsunto(e.target.value)}
                                     name="asunto"
                                     value={asunto}
                                     className={`${
-                                        error === "¡Por Favor Escribe el Asunto!" && "outline-red-500"
+                                        error === "Please Write the Subject!" && "outline-red-500"
                                     } contactInput`}
                                     type='text' 
                                 />
                             </div>
 
                             <div className='flex flex-col gap-4'>
-                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Contenido del Mensaje</p>
+                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Message Content</p>
 
                                 <textarea
                                     onChange={(e) => setMessage(e.target.value)}
                                     name='message'
                                     value={message}
                                     className={`${
-                                        error === "¡Se Requiere el Mensaje!" && "outline-red-500"
+                                        error === "Message Required!" && "outline-red-500"
                                     } contactTextarea`}
                                     cols='30'
                                     rows='10' 
@@ -183,7 +183,7 @@ const Contact = () => {
                                 <button type='submit' value='Send' onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400
                                 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] 
                                 hover:border-designColor border-transparent'>
-                                    Enviar Mensaje
+                                    Send Message
                                 </button>
                             </div>
 

@@ -16,16 +16,16 @@ const ContactLeft = () => {
                 <h3 className='text-3xl font-bold text-white'>Jesús Piñero</h3>
                 
                 <p className='text-lg font-normal text-gray-400'>
-                    Desarrollador Full-Stack
+                Full Stack Developer
                 </p>
 
                 <p className='text-base text-gray-400 tracking-wide'>
-                    Programador web con 4 años de experiencia en el desarrollo de aplicaciones web con 
-                    React.Js, Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS y BootsTrap.
+                    Web programmer with 4 years of experience developing web applications with
+                    React.Js, Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS and BootsTrap.
                 </p>
 
                 <p className='text-base text-gray-400 flex items-center gap-2'>
-                    Telefono: <span className='text-lightText'>+58 412-5943159</span>
+                    Phone: <span className='text-lightText'>+58 412-5943159</span>
                 </p>
 
                 <p className='text-base text-gray-400 flex items-center gap-2'>
@@ -35,7 +35,7 @@ const ContactLeft = () => {
             </div>
 
             <div className='flex flex-col gap-4'>
-                <h2 className='text-base font-titleFont uppercase mb-4'>Encuéntrame En</h2>
+                <h2 className='text-base font-titleFont uppercase mb-4'>Find me</h2>
                 
                 <div className='flex gap-4'>
                     <a href='https://www.linkedin.com/in/jes%C3%BAs-pi%C3%B1ero-b521a521b/' rel="noopener noreferrer" target='_blank'>

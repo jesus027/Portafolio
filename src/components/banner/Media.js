@@ -7,7 +7,7 @@ const Media = () => {
         <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
-                        BUSCAME EN
+                        Find Me
                     </h2>
 
                     <div className='flex gap-4'>
@@ -33,7 +33,7 @@ const Media = () => {
 
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
-                        MIS HABILIDADES
+                        MY ABILITIES
                     </h2>
 
                     <div className='flex gap-4'>
