@@ -73,7 +73,7 @@ const Contact = () => {
     return (
         <section id='contact' className='w-full py-20 border-b-[1px] border-black'>
             <div className='flex justify-center items-center text-center'>
-                <Title title="Contact" des="Send me a Message" />
+                <Title title="Contact" des="Enviame un Mensaje" />
             </div>
 
             <div className='w-full'>
@@ -107,7 +107,7 @@ const Contact = () => {
                             <div className='w-full flex flex-col lgl:flex-row gap-10'>
                                 <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                                     <p className='text-sm text-gray-400 uppercase tracking-wide'>
-                                        Name
+                                        Nombre
                                     </p>
 
                                     <input 
@@ -122,7 +122,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
-                                    <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone number</p>
+                                    <p className='text-sm text-gray-400 uppercase tracking-wide'>Teléfono</p>
 
                                     <input
                                         onChange={(e) => setPhone(e.target.value)}
@@ -151,7 +151,7 @@ const Contact = () => {
                             </div>
 
                             <div className='flex flex-col gap-4'>
-                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Subject</p>
+                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Asunto</p>
 
                                 <input
                                     onChange={(e) => setAsunto(e.target.value)}
@@ -165,7 +165,7 @@ const Contact = () => {
                             </div>
 
                             <div className='flex flex-col gap-4'>
-                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Message Content</p>
+                                <p className='text-sm text-gray-400 uppercase tracking-wide'>Mensaje</p>
 
                                 <textarea
                                     onChange={(e) => setMessage(e.target.value)}
@@ -183,7 +183,7 @@ const Contact = () => {
                                 <button type='submit' value='Send' onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400
                                 tracking-wide uppercase hover:text-white duration-300 hover:border-[1px] 
                                 hover:border-designColor border-transparent'>
-                                    Send Message
+                                    Enviar mensaje
                                 </button>
                             </div>
 

@@ -7,7 +7,7 @@ const LeftBanner = () => {
     const [text] = useTypewriter({
         words: ["Programador Profesional.", "Desarrollador Full-Stack."],
         loop: true,
-        typeSpeed: 20,
+        typeSpeed: 30,
         deleteSpeed: 15,
         delaySpeed: 3500,
     });
@@ -21,7 +21,7 @@ const LeftBanner = () => {
                         <span className='text-designColor capitalize'>Jesús Piñero</span>
                     </h1>
                     <h2 className='text-4xl font-bold text-white'>
-                        a <span>{text}</span>
+                        <span>{text}</span>
                         <Cursor 
                             cursorBlinking="false"
                             cursorStyle="|"
@@ -29,12 +29,9 @@ const LeftBanner = () => {
                         />
                     </h2>
                     <p className='text-base font-bodyFont leading-6 tracking-wide'>
-                        Web programmer with 4 years of experience developing web applications with React.Js,
-                        Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS and BootsTrap. do an internship
-                        as a Front-End programmer at Devdatep Consulting together with the Front-End team. I
-                        I always focus on finding the most efficient solutions in a robust environment and at the same time
-                        scalable. It is an essential requirement to have a balanced balance between my profession and my
-                        family.
+                        Mi experiencia como programador abarca más de 4 años, durante los cuales he trabajado en una amplia variedad de proyectos. Estos incluyen la creación de aplicaciones web y móviles, así como el desarrollo de microservicios y API RESTful. Mi enfoque en la tecnología y el aprendizaje constante me han permitido adaptarme rápidamente a nuevas tecnologías y herramientas, lo cual ha sido esencial para el éxito de los proyectos en los que he trabajado.
+
+                        Algunos de los logros y habilidades clave en mi carrera como programador web incluyen: Profundo conocimiento en JavaScript, React JS, Next JS, Node.js, Redux, MongoDB, MySQL, Docker, Angular.js, Vue.js, Laravel, TypeScript, Tailwind CSS y Bootstrap.
                     </p>
                 </div>
 

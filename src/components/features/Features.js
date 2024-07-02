@@ -9,50 +9,44 @@ import { TbApi } from 'react-icons/tb';
 const Features = () => {
     return (
         <section id='features' className='w-full py-20 border-b-[1px] border-b-black'>
-            <Title title="Features" des="What I Do" />
+            <Title title="Features" des="Lo que hago" />
 
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
                 <Card 
                     icon= {<AiFillAppstore />}
-                    title="Web Development"
+                    title="Desarrollo Web"
                     des="
-                    Development of web applications with React.Js, Angular.Js, Laravel, MySQL, HTML5,
-                    JavaScript, Tailwind CSS and BootsTrap."
+                        Profundo conocimiento en JavaScript, React JS, Next JS, Node.js, MongoDB, MySQL, Angular.js, Vue.js, Laravel, TypeScript, Tailwind CSS y Bootstrap. Experiencia desarrollando aplicaciones web y móviles."
                 />
 
                 <Card
                     icon={<BsFiletypeJson />}
-                    title="JSON Queries"
-                    des="Creation, manipulation, formatting, analysis and integration of advanced queries that
-                    require to be written in JSON language."
+                    title="Consultas JSON"
+                    des="Creación, manipulación, formateo, análisis e integración de consultas avanzadas que requieren estar escritos en lenguaje JSON."
                 />
 
                 <Card
                     icon={<TbApi />}
-                    title="API Manipulation"
-                    des="Content creation with various APIs, including GIPHY, PokéAPI, Rick and Morty API and
-                    Breaking Bad Quotes API, using React.JS, Angular.JS and Laravel"
+                    title="API REST"
+                    des="experiencia en la integración y Creación de API's, Utilizando tecnologías de vanguardia como: React.Js y node.Js, para crear experiencias de contenido únicas."
                 />
 
                 <Card
                     icon={<BsFiletypeSql />}
                     title="SQL"
-                    des="Management of database managers such as MySQL, PostgreSQL, PHPMyAdmin,
-                    both for queries and for data integration."
+                    des="Manejo de gestores de bases de datos como MySQL, PostgreSQL, PHPMyAdmin, MongoDB y NoSQL, tanto para consultas como para integración de datos."
                 />
 
                 <Card
                     icon={<BsFiletypePhp />}
-                    title="PHP"
-                    des="Solid knowledge of the PHP language, for advanced code creation and development
-                    of specific applications or programs."
+                    title="AWS"
+                    des="conceptos fundamentales de la nube de Amazon Web Services, incluyendo computación, almacenamiento, bases de datos, seguridad y arquitectura de la nube"
                 />
 
                 <Card
                     icon={<BsGithub />}
                     title="GitHub"
-                    des="Repository creation, teamwork and high understanding
-                    in your commands such as git push, pull, branch, etc..."
+                    des="Creación y manejo de repositorios, trabajo en equipo y un alto entendimiento en sus comandos como add, commit, push, pull, branch, etc..."
                 />
             </div>
         </section>

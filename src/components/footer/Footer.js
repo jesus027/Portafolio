@@ -10,7 +10,7 @@ const Footer = () => {
                 <img className='w-20' src={logo} alt='logo' />
 
                 <div className='flex gap-4'>
-                    <a href='https://www.linkedin.com/in/jes%C3%BAs-pi%C3%B1ero-b521a521b/' rel="noopener noreferrer" target='_blank'>
+                    <a href='https://www.linkedin.com/in/jesus-pinero-b521a521b/' rel="noopener noreferrer" target='_blank'>
                         <span className='bannerIcon'>
                             <FaLinkedinIn />
                         </span>
@@ -165,7 +165,7 @@ const Footer = () => {
                     <li>
                         <span className='w-full text-lg hover:text-designColor duration-300 cursor-pointer
                         relative group'>
-                            © 2023 Jesús Piñero | Website Portfolio
+                            © 2024 Jesús Piñero | Website Portfolio
                             <span className='absolute h-[1px] w-full inline-flex
                         bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0
                         transition-transform duration-300'></span>

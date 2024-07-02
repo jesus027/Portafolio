@@ -7,23 +7,35 @@ const Media = () => {
         <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
-                        Find Me
+                        Contáctame
                     </h2>
 
                     <div className='flex gap-4'>
-                        <a href='https://www.linkedin.com/in/jes%C3%BAs-pi%C3%B1ero-b521a521b/' rel="noopener noreferrer" target='_blank'>
+                        <a 
+                            href='https://www.linkedin.com/in/jesus-pinero-b521a521b/'
+                            rel="noopener noreferrer" 
+                            target='_blank'
+                        >
                             <span className='bannerIcon'>
                                 <FaLinkedinIn />
                             </span>
                         </a>
                         
-                        <a href='https://www.instagram.com/jesusgt77/' rel="noopener noreferrer" target='_blank'>    
+                        <a
+                            href='https://www.instagram.com/jesusgt77/' 
+                            rel="noopener noreferrer" 
+                            target='_blank'
+                        >    
                             <span className='bannerIcon'>
                                 <FaInstagram />
                             </span>
                         </a>
 
-                        <a href='https://api.whatsapp.com/send?phone=584125943159' rel="noopener noreferrer" target='_blank'>    
+                        <a 
+                            href='https://api.whatsapp.com/send?phone=584125943159'
+                            rel="noopener noreferrer"
+                            target='_blank'
+                        >    
                             <span className='bannerIcon'>
                                 <FaWhatsapp />
                             </span>
@@ -33,7 +45,7 @@ const Media = () => {
 
                 <div>
                     <h2 className='text-base uppercase font-titleFont mb-4'>
-                        MY ABILITIES
+                        MIS HABILIDADES
                     </h2>
 
                     <div className='flex gap-4'>

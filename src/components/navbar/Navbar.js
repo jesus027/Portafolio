@@ -51,9 +51,7 @@ const Navbar = () => {
                                 <img src={logo} alt='logo' className='w-20' />
 
                                 <p className='text-sm text-gray-400 mt-2'>
-                                    Web programmer with 4 years of experience developing web applications with 
-                                    React.Js, Angular.Js, Laravel, MySQL, HTML5, JavaScript, Tailwind CSS and 
-                                    BootsTrap.
+                                Profundo conocimiento en JavaScript, React JS, Next JS, Node.js, Redux, MongoDB, MySQL, Docker, Angular.js, Vue.js, Laravel, TypeScript, Tailwind CSS y Bootstrap.
                                 </p>
                             </div>
 
@@ -82,10 +80,10 @@ const Navbar = () => {
                             </ul>
 
                             <div className='flex flex-col gap-4'>
-                                <h2 className='text-base font-titleFont uppercase mb-4'>Find Me</h2>
+                                <h2 className='text-base font-titleFont uppercase mb-4'>Contáctame</h2>
                                 
                                 <div className='flex gap-4'>
-                                    <a href='https://www.linkedin.com/in/jes%C3%BAs-pi%C3%B1ero-b521a521b/' rel="noopener noreferrer" target='_blank'>
+                                    <a href='https://www.linkedin.com/in/jesus-pinero-b521a521b/' rel="noopener noreferrer" target='_blank'>
                                         <span className='bannerIcon'>
                                             <FaLinkedinIn />
                                         </span>
